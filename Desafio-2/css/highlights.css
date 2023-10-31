@@ -1,0 +1,56 @@
+.highlights-container{
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.highlights-title{
+  font-size: var(--fs-600);
+  font-weight: var(--fw-semi-bold);
+  font-family: var(--ff-primary);
+  margin-bottom: 1rem;
+}
+
+.highlights-description{
+  font-family: var(--ff-primary);
+  font-size: var(--fs-300);
+  font-weight: var(--fw-medium);
+  margin-bottom: 3rem;
+}
+
+.shoes{
+  background: var(--shoes-container);
+  width: 374px;
+  height: 302px;
+  margin-bottom: 1rem;
+}
+
+.shoes img{
+  max-width: 250px;
+  height: auto;
+  margin-top: 70px;
+}
+
+.highlights-shoes-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.shoes:hover{
+  transform: scale(1.06);
+  transition: .2s all ease;
+  cursor: pointer;
+}
+
+
+@media (min-width: 1154px){
+  .highlights-title{
+    font-size: var(--fs-800);
+  }
+
+  .highlights-description{
+    font-size: var(--fs-500);
+  }
+  
+}

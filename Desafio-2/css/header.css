@@ -1,0 +1,25 @@
+header{
+  text-align: center;
+}
+
+.header-discount{
+  font-family: var(--ff-primary);
+  font-size: var(--fs-300);
+  background: var(--header-clr);
+  color: var(--primary-clr);
+  padding: 1rem;
+}
+
+.header-brand{
+  font-family: var(--ff-primary);
+  font-size: var(--fs-500);
+  background: var(--tertiary-clr);
+  color: var(--primary-clr);
+  padding: 1rem;
+}
+
+@media (min-width: 1154px){
+  .header-brand{
+    font-size: var(--fs-600);
+  }
+}

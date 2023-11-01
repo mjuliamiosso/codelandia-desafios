@@ -1,0 +1,82 @@
+.form-container{
+  background: var(--form-bg-clr);
+}
+
+.btn-form{
+  width: 373.21px;
+  padding: .75rem 0;
+  margin-top: 2.75rem;
+}
+
+.form-box{
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-box p{
+  font-size: var(--fs-600);
+  text-align: center;
+  font-weight: var(--fw-regular);
+  font-family: var(--ff-primary);
+  color: var(--title-clr);
+  margin-bottom: 2.75rem;
+}
+
+.form-box input{
+  width: 373.21px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-box input::placeholder{
+  color: var(--form-text-clr);
+  font-family: var(--ff-secondary);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-300);
+}
+
+.form-box textarea{
+  width: 373.21px;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  resize: none;
+}
+
+.form-box textarea::placeholder{
+  color: var(--form-text-clr);
+  font-family: var(--ff-secondary);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-300);
+}
+
+@media (min-width: 1240px){
+  .form-box p{
+    font-size: var(--fs-700);
+  }
+
+  .form-box input::placeholder{
+    font-size: var(--ff-300);
+  }
+
+  .form-box textarea::placeholder{
+    font-size: var(--ff-300);
+  }
+
+  .btn-form{
+    width: 470px;
+  }
+
+  .form-box textarea{
+    width: 470px;
+  }
+
+  .form-box input{
+    width: 470px;
+  }
+}

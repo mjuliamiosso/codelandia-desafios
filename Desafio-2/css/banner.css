@@ -28,6 +28,7 @@
   font-family: var(--ff-primary);
   color: var(--tertiary-clr);
   font-weight: var(--ff-semi-bold);
+  
 }
 
 
@@ -43,5 +44,11 @@
   .banner-description{
     font-size: var(--fs-600);
   }
-  
+
+  .break-point::before{
+    content: "hiddentext";
+    font-size: 0;
+    display: block;
+    line-height: 0;
+  }
 }

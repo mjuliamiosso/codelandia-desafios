@@ -38,8 +38,8 @@
 }
 
 .shoes:hover{
-  transform: scale(1.06);
-  transition: .2s all ease;
+  transform: scale(1.1);
+  transition: .3s all ease;
   cursor: pointer;
 }
 

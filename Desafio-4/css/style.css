@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+@import url(./utils.css);
+@import url(./hero.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root{
+  --img-bg-clr: #F7FAFC;
+  --dark-blue: #1A202C;
+  --white: #FFFFFF;
+  --light-grey: #E8E8E8;
+  --green: #04C35C;
+  --light-blue: #2B6CB0;
+
+  --text-clr: var(--dark-blue);
+  --anchor-clr: var(--light-blue);
+  --btn-text-clr: var(--white);
+  --btn-green-clr: var(--green);
+  --btn-dark-clr: var(--dark-blue);
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --ff-primary: 'Merriweather', serif;
+  --ff-secondary: 'Lato', sans-serif;
+
+  --fs-300: .875rem;
+  --fs-400: 1rem;
+  --fs-500: 1.625rem;
+}

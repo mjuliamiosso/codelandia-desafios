@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+@import url(./utils.css);
+@import url(./hero.css);
+@import url(./header.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --white: #F9F9F9;
+  --green: #658E76;
+  --gradient: linear-gradient(145deg, rgba(98,142,117,1) 0%, rgba(26,72,85,1) 100%);
+
+  --text-clr: var(--white);
+  --btn-clr: var(--green);
+
+  --ff-primary: 'Poppins', sans-serif;
+  
+  --fs-300: .875rem;
+  --fs-400: 1rem;
+  --fs-500: 1.125rem;
+  --fs-600: 3.5rem;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-black: 900;
+}
+
+@media (min-width: 1100px){
+  :root{
+    --fs-300: 1;
+    --fs-400: 1.25rem;
+    --fs-500: 4.25rem;
+  }
+}

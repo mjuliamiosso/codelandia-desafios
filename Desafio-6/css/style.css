@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&family=Open+Sans:wght@700&display=swap');
+@import url(./utils.css);
+
+
+:root{
+  --white: #FFFFFF;
+  --yellow: #FFA800;
+
+  --text-clr: var(--white);
+  --star-clr: var(--yellow);
+
+  --fs-300: .875rem;
+  --fs-400: 1rem;
+  --fs-500: 1.125rem;
+  --fs-600: 4rem;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --ff-primary: 'B612', sans-serif;
+  --ff-secondary: 'Open Sans', sans-serif;
+}

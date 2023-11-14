@@ -7,7 +7,9 @@
   --white: #FFFFFF;
   --yellow: #FFA800;
   --dark-blue: #19191F;
+  --dark-blue-hover: #0c0c0f;
   --blue: #0072D2;
+  --blue-hover: #01589e;
 
   --text-clr: var(--white);
   --star-clr: var(--yellow);

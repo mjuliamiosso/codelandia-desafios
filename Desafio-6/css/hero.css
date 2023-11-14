@@ -97,7 +97,10 @@ body{
   .description-container img{
     display: block;
     max-width: 184px;
+    min-height: 267px;
+    object-fit: cover;
     border-radius: 20px;
+    margin-right: 2rem;
   }
 
   hr{
@@ -122,6 +125,8 @@ body{
   .description{
     display: flex;
     flex-direction: column-reverse;
+    padding: 0
+    ;
   }
 
   .box-container{
@@ -137,6 +142,8 @@ body{
 
   .description p{
     font-size: var(--fs-400);
+    margin-top: 0;
+    margin-bottom: 2rem;
   }
   
 
@@ -144,7 +151,7 @@ body{
     display: flex;
     justify-content: flex-start;
     gap: 20%;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
   
   .rating p{

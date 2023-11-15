@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url(./utils.css);
+@import url(./landing.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --dark-blue: #0F1923;
+  --red: #FF4655;
+
+  --text-color: #FFFFFF;
+  --ff-primary: 'Open Sans', sans-serif;
+  --fw-semibold: 600;
+  --fs-300: 1rem;
+}
+
+@media (min-width: 990px){
+  :root{
+    --fs-300: 1.5rem;
+  }
+}
